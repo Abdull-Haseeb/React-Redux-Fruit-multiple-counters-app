@@ -59,15 +59,192 @@ h1 {
   padding: 12px 24px;
   margin: 5px;
   border: none;
-  background-color: #f5a623;
-  color: #fff;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 }
 
+/* Button colors based on fruit names */
+.counter-card button.AddApple {
+  background-color: #ff6347; /* Tomato Red */
+  color: #fff;
+}
+
+.counter-card button.RemoveApple {
+  background-color: #ffa07a; /* Light Salmon */
+  color: #fff;
+}
+
+.counter-card button.AddBanana {
+  background-color: #ffd700; /* Gold */
+  color: #000;
+}
+
+.counter-card button.RemoveBanana {
+  background-color: #ffffe0; /* Light Yellow */
+  color: #000;
+}
+
+/* Add other fruit buttons here with appropriate class names and colors */
+/* ... */
+.counter-card button.AddOrange {
+  background-color: #ff4500; /* Orange Red */
+  color: #fff;
+}
+
+.counter-card button.RemoveOrange {
+  background-color: #ffa500; /* Orange */
+  color: #fff;
+}
+
+.counter-card button.AddGrapes {
+  background-color: #6a5acd; /* Slate Blue */
+  color: #fff;
+}
+
+.counter-card button.RemoveGrapes {
+  background-color: #8a2be2; /* Blue Violet */
+  color: #fff;
+}
+
+/* Counter.css */
+
+/* Button colors based on fruit names */
+.counter-card button.AddMango {
+  background-color: #ffa500; /* Orange */
+  color: #fff;
+}
+
+.counter-card button.RemoveMango {
+  background-color: #ff4500; /* Red Orange */
+  color: #fff;
+}
+
+.counter-card button.AddWatermelon {
+  background-color: #ff6347; /* Tomato Red */
+  color: #fff;
+}
+
+.counter-card button.RemoveWatermelon {
+  background-color: #ffa07a; /* Light Salmon */
+  color: #fff;
+}
+
+.counter-card button.AddPineapple {
+  background-color: #ffd700; /* Gold */
+  color: #000;
+}
+
+.counter-card button.RemovePineapple {
+  background-color: #ffffe0; /* Light Yellow */
+  color: #000;
+}
+
+.counter-card button.AddCherry {
+  background-color: #dc143c; /* Crimson */
+  color: #fff;
+}
+
+.counter-card button.RemoveCherry {
+  background-color: #ff69b4; /* Hot Pink */
+  color: #fff;
+}
+
+.counter-card button.AddKiwi {
+  background-color: #8fbc8f; /* Dark Sea Green */
+  color: #fff;
+}
+
+.counter-card button.RemoveKiwi {
+  background-color: #98fb98; /* Pale Green */
+  color: #000;
+}
+
+.counter-card button.AddStrawberry {
+  background-color: #ff1493; /* Deep Pink */
+  color: #fff;
+}
+
+.counter-card button.RemoveStrawberry {
+  background-color: #ffc0cb; /* Pink */
+  color: #000;
+}
+
+.counter-card button.AddPear {
+  background-color: #ffa500; /* Orange */
+  color: #fff;
+}
+
+.counter-card button.RemovePear {
+  background-color: #ff4500; /* Red Orange */
+  color: #fff;
+}
+
+.counter-card button.AddPeach {
+  background-color: #ffdab9; /* Peach Puff */
+  color: #000;
+}
+
+.counter-card button.RemovePeach {
+  background-color: #ffb6c1; /* Light Pink */
+  color: #000;
+}
+
+.counter-card button.AddPlum {
+  background-color: #dda0dd; /* Plum */
+  color: #fff;
+}
+
+.counter-card button.RemovePlum {
+  background-color: #da70d6; /* Orchid */
+  color: #fff;
+}
+
+.counter-card button.AddBlueberry {
+  background-color: #4169e1; /* Royal Blue */
+  color: #fff;
+}
+
+.counter-card button.RemoveBlueberry {
+  background-color: #6495ed; /* Cornflower Blue */
+  color: #fff;
+}
+
+.counter-card button.AddRaspberry {
+  background-color: #8b0000; /* Dark Red */
+  color: #fff;
+}
+
+.counter-card button.RemoveRaspberry {
+  background-color: #ff0000; /* Red */
+  color: #fff;
+}
+
+.counter-card button.AddLemon {
+  background-color: #ffff00; /* Yellow */
+  color: #000;
+}
+
+.counter-card button.RemoveLemon {
+  background-color: #fffacd; /* Lemon Chiffon */
+  color: #000;
+}
+
+.counter-card button.AddApricot {
+  background-color: #ff4500; /* Red Orange */
+  color: #fff;
+}
+
+.counter-card button.RemoveApricot {
+  background-color: #ffa07a; /* Light Salmon */
+  color: #fff;
+}
+
+/* Continue adding colors for other fruits */
+
 .counter-card button:hover {
-  background-color: #dd8e00;
+  background-color: initial;
+  color: initial;
 }
 
 .total-sum {

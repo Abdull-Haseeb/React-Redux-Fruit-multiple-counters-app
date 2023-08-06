@@ -55,7 +55,7 @@ const Counter = () => {
 
   return (
     <div className="counter-container">
-      <h1 className="counter-heading">Multiple Counters</h1>
+      <h1 className="counter-heading">Fruit Store UI</h1>
       <div className="total-sum">
         <p>Total Fruits: {totalSum}</p>
       </div>
@@ -67,13 +67,13 @@ const Counter = () => {
             </p>
             <button
               onClick={() => dispatch({ type: "INCREMENT", payload: index })}
-              className="increment-btn"
+              className={`increment-btn Add${fruits[index]}`}
             >
               Add {fruits[index]}
             </button>
             <button
               onClick={() => dispatch({ type: "DECREMENT", payload: index })}
-              className="decrement-btn"
+              className={`decrement-btn Remove${fruits[index]}`}
             >
               Remove {fruits[index]}
             </button>
